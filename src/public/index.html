@@ -24,9 +24,9 @@
     <!-- HERO -->
     <section
         class="flex flex-col min-h-screen bg-slate-800 text-white bg-center bg-cover bg-blend-overlay bg-black/30 bg-fixed"
-        style="background-image: url(img/bg-2.jpg);">
+        style="background-image: url(img/space.jpg);">
         <!-- NAVBAR -->
-        <nav class="bg-stone-600">
+        <nav class="bg-stone-950">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex items-center justify-between h-16">
                     <div class="flex items-center">
@@ -62,9 +62,9 @@
     <!-- END HERO -->
 
     <!-- ABOUT US -->
-    <section class="bg-stone-600 min-h-screen py-16" id="about">
+    <section class="bg-stone-800 min-h-screen py-16" id="about">
         <div
-            class="container mx-auto flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between py-16">
+            class="container mx-auto flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between py-16 mt-28">
             <div class="md:w-1/2 flex flex-col justify-center text-center md:text-left md:px-20">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl text-white font-bold mb-5">About <span
                         class="text-purple-600">Us</span></h2>
@@ -76,7 +76,7 @@
                 </p>
             </div>
             <div class="md:w-1/2 relative mt-8 md:mt-0">
-                <img class="w-full relative z-10" src="img/bg-1.jpg" alt="">
+                <img class="w-full relative z-10" src="img/bg-2.jpg" alt="">
                 <div class="bg-stone-400 h-full w-full absolute top-7 -left-7"></div>
             </div>
         </div>
@@ -84,7 +84,7 @@
     <!-- END ABOUT US -->
 
     <!-- NFTs -->
-    <section class="bg-stone-600 min-h-screen py-16" id="nft">
+    <section class="bg-stone-800 min-h-screen py-16" id="nft">
         <h1 class="text-4xl md:text-5xl lg:text-6xl text-center text-white font-semibold mb-5">Our <span
                 class="text-purple-600">NFTs</span></h1>
         <div class="container mx-auto flex flex-wrap gap-4 justify-center md:justify-evenly mt-10">
@@ -141,7 +141,7 @@
     <!-- END NFTs -->
 
     <!-- CONTACT -->
-    <section class="bg-stone-600 px-6 py-24 sm:py-32 lg:px-8" id="contact">
+    <section class="bg-stone-800 px-6 py-24 sm:py-32 lg:px-8" id="contact">
         <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
             aria-hidden="true">
             <div class="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
@@ -223,28 +223,34 @@
     <!-- END CONTACT -->
 
     <!-- FOOTER -->
-    <footer class="bg-stone-800 text-white">
+    <footer class="bg-stone-950 text-white">
         <div class="container mx-auto py-14 px-6">
             <div class="grid md:grid-cols-12 grid-cols-1 gap-7">
                 <div class="lg:col-span-4 col-span-12">
-                    <p class="mt-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam officia ex
-                        blanditiis sapiente magni
-                        fuga, minus unde voluptatibus asperiores vero!</p>
+                    <h3 class="tracking-wide font-semibold">TailWind CSS <span class="text-purple-600">Project</span></h3>
+                    <p class="mt-6">Website containing abstract/cartoon images, created to complete my SKL in semester 2.
+                        All content on this website uses tailwindcss, HTML, JavaScript. Further information is below
+                    </p>
                 </div>
                 <div class="lg:col-span-2 md:col-span-4 col-span-12">
                     <h5 class="tracking-wide font-semibold">Go Back</h5>
                     <ul class="list-none mt-6 space-y-2">
                         <li>
-                            <a href="" class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">Home</a>
+                            <a href="#home"
+                                class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">Home</a>
                         </li>
                         <li>
-                            <a href="" class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">About Us</a>
+                            <a href="#about"
+                                class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">About
+                                Us</a>
                         </li>
                         <li>
-                            <a href="" class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">NFTs</a>
+                            <a href="#nft"
+                                class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">NFTs</a>
                         </li>
                         <li>
-                            <a href="" class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">Contact</a>
+                            <a href="#contact"
+                                class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -252,17 +258,45 @@
                     <h5 class="tracking-wide font-semibold">More Information</h5>
                     <ul class="list-none space-y-2 mt-6">
                         <li>
-                            <a href="" class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">tailwindcss</a>
+                            <a href=""
+                                class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">tailwindcss</a>
                         </li>
                         <li>
-                            <a href="" class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">HTML</a>
+                            <a href=""
+                                class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">HTML</a>
                         </li>
                         <li>
-                            <a href="" class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">NFT</a>
+                            <a href=""
+                                class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">NFT</a>
                         </li>
                     </ul>
                 </div>
-
+                <div class="lg:col-span-3 md:col-span-4 col-span-12">
+                    <h5 class="tracking-wide font-semibold">
+                        Community
+                    </h5>
+                    <ul class="list-none mt-6 space-y-2">
+                        <li>
+                            <a href="https://github.com/ZUHAIRR23"
+                                class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCyj5aOHKFM-4qSauWeAz-og"
+                                class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">YouTube</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/abdurahman-zuhair-7a42a9284/"
+                                class="text-gray-300 hover:text-white transition-all duration-500 ease-in-out">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-slate-700">
+            <div class="md:text-left text-center container mx-auto py-7 px-6">
+                <p class="mb-0">
+                    &copy;2024 Abdurahman Zuhair | NFT Website | tailwindCSS
+                </p>
             </div>
         </div>
     </footer>
