@@ -1327,6 +1327,10 @@ input:checked + .toggle-bg {
   margin-top: 5rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
 .block {
   display: block;
 }
@@ -1983,6 +1987,11 @@ input:checked + .toggle-bg {
   padding-bottom: 1.75rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pl-20 {
   padding-left: 5rem;
 }
@@ -2507,6 +2516,16 @@ input:checked + .toggle-bg {
 :is(.dark .dark\:bg-slate-300) {
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-stone-300) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(214 211 209 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-stone-400) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 162 158 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dark\:text-black) {
